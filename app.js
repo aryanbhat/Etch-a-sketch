@@ -27,7 +27,7 @@ let size = document.querySelector(".size");
 let clear_button = document.querySelector(".clear");
 clear_button.addEventListener("click", clear);
 size.addEventListener("click", function(){
-  let rows = prompt("Enter the number of rows");
+  let rows = prompt("Enter the number of rows from 1-50");
   clear_grid();
   grid_generator(rows);
   active_grid();
